@@ -11,7 +11,7 @@ Telegram script for VORP Core. With this script you can send a mail to a specifi
 - Send broadcast messages for a price to everyone
 - HTML
 
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/87246847/177016773-11689a71-1853-45a8-b3a2-cfe813c3bd1b.png">
+<img width="600" alt="image" src="https://files.catbox.moe/qk3nfq.png">
 
 ## **Dependencies**
 - [VORP Core](https://github.com/VORPCORE/vorp_core-lua)
