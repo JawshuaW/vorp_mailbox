@@ -1,0 +1,111 @@
+
+Instructions for Changing Logo, Postal Service Text, and Blip Name
+================================================================
+
+1. **How to Change the Watermark/Logo:**
+
+   - **Locate the Image in `index.html`:**
+     1. Open the `index.html` file.
+     2. Find the line:
+        ```html
+        <img src="https://avatars.githubusercontent.com/u/64416274?s=200&v=4" alt="Vorp Core Postal Service" />
+        ```
+        The `src` attribute contains the URL of the current logo.
+
+   - **Replace the Image:**
+     1. Replace the current URL with the URL of your new logo. For example:
+        ```html
+        <img src="https://your-image-url-here.png" alt="Your Postal Service Logo" />
+        ```
+
+   - **Optional: Add a Local Image:**
+     1. Place your image file in the `/html/images/` folder (or a similar directory in your resource).
+     2. Update the `src` to point to the file:
+        ```html
+        <img src="images/your-logo.png" alt="Your Postal Service Logo" />
+        ```
+
+   - **Save and Restart:**
+     1. Save the `index.html` file.
+     2. Restart your server to apply the changes.
+
+---
+
+2. **How to Change the "Postal Service" Text:**
+
+   - **Locate the Text for the Watermark:**
+     1. In `index.html`, find this line:
+        ```html
+        <span class="mailbox-title-text">Postal Service</span>
+        ```
+     2. Replace `"Postal Service"` with your desired text. For example:
+        ```html
+        <span class="mailbox-title-text">Telegraph Office</span>
+        ```
+
+   - **Locate the Text for the Write Section:**
+     1. Find this section in `index.html`:
+        ```html
+        <h1>
+          Vorp Core
+          <br />
+          Postal Service
+        </h1>
+        ```
+     2. Replace `"Vorp Core"` and `"Postal Service"` with your own text. For example:
+        ```html
+        <h1>
+          Your Town Name
+          <br />
+          Telegraph Office
+        </h1>
+        ```
+
+   - **Save and Restart:**
+     1. Save your changes and restart your server.
+
+---
+
+3. **How to Change the Blip Name:**
+
+   - **Open the `config.lua` File:**
+     1. Locate the `Config.BlipName` variable:
+        ```lua
+        Config.BlipName = "Vorp Core Mailbox"
+        ```
+
+   - **Edit the Blip Name:**
+     1. Replace `"Vorp Core Mailbox"` with your desired name. For example:
+        ```lua
+        Config.BlipName = "Telegraph Office"
+        ```
+
+   - **Save and Restart:**
+     1. Save the `config.lua` file.
+     2. Restart your server to apply the new blip name.
+
+---
+
+4. **Optional Adjustments:**
+
+   - **Adjust Logo Text Size:**
+     1. Open `styles.css` and look for:
+        ```css
+        .mailbox-title-text {
+          font-size: 18px; /* Adjust the size */
+        }
+        ```
+     2. Modify the `font-size` to your preference.
+
+   - **Adjust Header Text Size:**
+     1. Open `styles.css` and locate:
+        ```css
+        h1 {
+          font-size: 36px; /* Change this size */
+        }
+        ```
+     2. Modify the `font-size` value to your liking.
+
+---
+
+Now your server will have its own unique branding for the mail and telegraph system!

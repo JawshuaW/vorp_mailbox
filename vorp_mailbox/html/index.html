@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.bunny.net/css2?family=Roboto:wght@300;400;500;700;900&family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="listener.js" type="text/javascript"></script>
+    </head>
+    <body>
+		<audio id="telegram-sound" src="sounds/telegraph.mp3" preload="auto"></audio>
+        <div id="mailbox-container-read">
+            <div id="mailbox-read-header">
+                <div class="mailbox-title">
+					<img src="https://avatars.githubusercontent.com/u/64416274?s=200&v=4" alt="Vorp Core Postal Service" />
+					<span class="mailbox-title-text">Postal Service</span>
+				</div>
+                <a id="mailbox-read-button-close" href="#">✖ Close</a>
+            </div>
+            <div id="mailbox-content" class="mailbox-content">
+                <ul id="mailbox-letters" class="mailbox-letters"></ul>
+            </div>
+            <div id="mailbox-buttons" class="mailbox-buttons">
+                <div id="mailbox-buttons-global">
+                    <a id="mailbox-button-write" href="#">✒ Write</a>
+					<a id="mailbox-button-broadcast-ui" href="#">📢 Broadcast</a>
+                </div>
+                <div id="mailbox-buttons-letter">
+                    <a id="mailbox-button-delete" href="#">🗑 Delete</a>
+                    <a id="mailbox-button-answer" href="#">↩ Reply</a>
+                </div>
+            </div>
+        </div>
+        <div id="mailbox-container-write">
+            <div id="mailbox-write-header">
+                <div class="mailbox-title">
+                    <h1>
+                        Vorp Core
+                        <br />
+                        Postal Service
+                    </h1>
+                </div>
+                <a id="mailbox-write-button-close" href="#">✖ Close</a>
+            </div>
+            <textarea id="mailbox-message-text" placeholder="Compose your message here... brevity is key, telegrams ain’t novels!"></textarea>
+            <div id="mailbox-buttons-write" class="mailbox-buttons">
+                <div>
+                    <p>Destination:</p>
+                    <select id="mailbox-user-select"></select>
+                </div>
+                <div id="mailbox-buttons-edit">
+                    <a id="mailbox-button-cancel" href="#">✖ Cancel</a>
+                    <a id="mailbox-button-send" href="#">📨 Send</a>
+                </div>
+            </div>
+        </div>
+        <div id="mailbox-container-broadcast">
+            <div id="mailbox-broadcast-header">
+                <div class="mailbox-title">
+                    <h1>
+                        Vorp Core
+                        <br />
+                        Postal Service
+                    </h1>
+                </div>
+                <a id="mailbox-broadcast-button-close" href="#">✖ Close</a>
+            </div>
+            <textarea id="mailbox-broadcast-text" placeholder="Broadcasts cost $500, so choose your words wisely, like you’re paying by the letter."></textarea>
+            <div id="mailbox-buttons-broadcast" class="mailbox-buttons">
+                <div id="mailbox-buttons-broadcast-edit">
+                    <a id="mailbox-button-broadcast-cancel" href="#">✖ Cancel</a>
+                    <a id="mailbox-button-broadcast" href="#">📢 Broadcast</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

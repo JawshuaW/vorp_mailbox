@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+
+/* General Styles */
+body {
+    display: none;
+    background: url('https://www.transparenttextures.com/patterns/aged-paper.png'); /* Subtle parchment texture */
+    font-family: 'Playfair Display', serif;
+    color: #4e342e;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #8b4513;
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: 2px solid #4e342e;
+    background-color: #f5deb3;
+    color: #4e342e;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    background-color: #d2b48c;
+    color: #fff;
+    border-color: #8b4513;
+}
+
+/* Container Styles */
+#mailbox-container-read,
+#mailbox-container-write,
+#mailbox-container-broadcast {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    max-width: 90%;
+    height: auto;
+    background-color: rgba(245, 222, 179, 0.9); /* Parchment color */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border: 4px solid #8b4513; /* Wood brown border */
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+#mailbox-read-header,
+#mailbox-write-header,
+#mailbox-broadcast-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.mailbox-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adds space between the logo and the text */
+}
+
+.mailbox-title img {
+    max-width: 160px; /* Adjust the width of the logo */
+    height: auto;
+    display: block;
+}
+
+.mailbox-title-text {
+    font-family: 'Great Vibes', cursive; /* Same cursive font as the write section */
+    font-size: 36px; /* Matches the font size of the header */
+    color: #8b4513; /* Same color as the logo */
+    text-align: left; /* Aligns text properly next to the logo */
+    margin: 0; /* Ensures no extra margin */
+}
+
+
+
+/* Content Area */
+#mailbox-content {
+    display: flex;
+    gap: 20px;
+    height: 350px; /* Fixed height to ensure layout consistency */
+}
+
+#mailbox-letters {
+    flex: 0 0 250px; /* Fixed width for the scroll box */
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #fffaf0;
+    border: 2px solid #8b4513;
+    border-radius: 5px;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+
+/* Scrollbar */
+#mailbox-letters::-webkit-scrollbar {
+    width: 12px;
+}
+#mailbox-letters::-webkit-scrollbar-thumb {
+    background-color: #8b4513;
+    border-radius: 5px;
+}
+
+
+
+/* Letter Items */
+.mailbox-letter {
+    border: 1px solid transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    word-wrap: break-word; /* Prevents text overflow */
+}
+
+.mailbox-letter:hover {
+    background-color: rgba(139, 69, 19, 0.1);
+    border-color: #8b4513;
+}
+
+.mailbox-letter a {
+    display: block;
+    color: #4e342e;
+    font-size: 16px;
+    text-align: left;
+}
+
+.mailbox-letter .letter-date {
+    font-size: 14px;
+    text-align: right;
+}
+
+/* Message Content Styling */
+.mailbox-letter-content {
+    flex: 1; /* Takes up the remaining space */
+    border: 2px solid #8b4513;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fffaf0;
+    overflow-y: auto; /* Allows scrolling for long messages */
+    word-wrap: break-word;
+    color: #000 !important; /* Ensure the text color is black */
+    font-size: 16px;
+    line-height: 1.5; /* Improves readability */
+    white-space: pre-wrap; /* Preserves line breaks in the message */
+    height: 100%; /* Ensures it stretches to fill the available space */
+}
+
+/* Textareas */
+#mailbox-message-text,
+#mailbox-broadcast-text {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #8b4513;
+    background-color: #fffaf0;
+    color: #4e342e;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#mailbox-message-text:focus,
+#mailbox-broadcast-text:focus {
+    outline: none;
+    border-color: #4e342e;
+}
+
+/* Buttons Section */
+.mailbox-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mailbox-buttons a {
+    flex: 1;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #8b4513;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    margin: 0 5px;
+}
+
+.mailbox-buttons a:hover {
+    background-color: #4e342e;
+    color: #fff;
+}
+
+/* Destination Dropdown */
+#mailbox-buttons-write select {
+    height: 40px;
+    min-width: 200px;
+    border: 2px solid #8b4513;
+    background-color: #fffaf0;
+    color: #4e342e;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+/* Add consistency to the new broadcast button */
+#mailbox-buttons-global a {
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #8b4513;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #8b4513;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#mailbox-buttons-global a:hover {
+    background-color: #4e342e;
+    color: #fff;
+}
+
