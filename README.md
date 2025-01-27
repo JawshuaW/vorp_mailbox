@@ -1,6 +1,12 @@
 # **vorp_mailbox**
 Telegram script for VORP Core. With this script you can send a mail to a specific player or you can send a broadcast to all players.
 
+## **Special Note**
+This is only a UI edit of the original script. I did not create the functionality of this script, but I’ve provided changes to enhance the appearance and usability for others. 
+
+All credit for the core functionality and original script goes to the original author. This edit is simply an aesthetic improvement for better user experience.
+
+
 ## **Installation**
 - Add `ensure vorp_mailbox` to your `server.cfg`/ `Resources.cfg` file
 - Run the `SQL` provided for database
