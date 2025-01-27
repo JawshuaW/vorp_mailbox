@@ -6,6 +6,7 @@ This is only a UI edit of the original script. I did not create the functionalit
 
 All credit for the core functionality and original script goes to the original author. This edit is simply an aesthetic improvement for better user experience.
 
+This is free for anyone to use and download
 
 ## **Installation**
 - Add `ensure vorp_mailbox` to your `server.cfg`/ `Resources.cfg` file
