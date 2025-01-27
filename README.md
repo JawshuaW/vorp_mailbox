@@ -12,6 +12,9 @@ Telegram script for VORP Core. With this script you can send a mail to a specifi
 - HTML
 
 <img width="600" alt="image" src="https://files.catbox.moe/qk3nfq.png">
+<img width="600" alt="image" src="https://files.catbox.moe/w0xbs1.png">
+<img width="600" alt="image" src="https://files.catbox.moe/p0ymva.png">
+<img width="600" alt="image" src="https://files.catbox.moe/wqh2r1.png">
 
 ## **Dependencies**
 - [VORP Core](https://github.com/VORPCORE/vorp_core-lua)
