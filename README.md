@@ -11,9 +11,13 @@ Telegram script for VORP Core. With this script you can send a mail to a specifi
 - Send broadcast messages for a price to everyone
 - HTML
 
+Postal Service Inbox:
 <img width="600" alt="image" src="https://files.catbox.moe/qk3nfq.png">
+Postal Serviice Personal Message:
 <img width="600" alt="image" src="https://files.catbox.moe/w0xbs1.png">
+Postal Service Write Mail:
 <img width="600" alt="image" src="https://files.catbox.moe/p0ymva.png">
+Postal Service Broadcast:
 <img width="600" alt="image" src="https://files.catbox.moe/wqh2r1.png">
 
 ## **Dependencies**
