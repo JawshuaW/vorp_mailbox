@@ -6,14 +6,18 @@ Telegram script for VORP Core. With this script you can send a mail to a specifi
 - Run the `SQL` provided for database
 
 ## **Features**
-- Choose from a list of players to send a telegram
-- Prices for telegrams
-- Send broadcast messages for a price to everyone
-- HTML
+- Send telegrams to specific players
+- Configurable prices for telegrams and broadcasts
+- Broadcast telegrams to all players for a fee
+- Custom VORP Mailbox UI with historical styling
+- Play custom sounds for telegram notifications
+- Easily changeable logo, text, and map blip names
+- Fully responsive HTML design for seamless user experience
+
 
 Postal Service Inbox:
 <img width="600" alt="image" src="https://files.catbox.moe/qk3nfq.png">
-Postal Serviice Personal Message:
+Postal Service Personal Message:
 <img width="600" alt="image" src="https://files.catbox.moe/w0xbs1.png">
 Postal Service Write Mail:
 <img width="600" alt="image" src="https://files.catbox.moe/p0ymva.png">
