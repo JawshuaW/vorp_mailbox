@@ -30,16 +30,16 @@ This edit is **free to use and download**.
 ## 🖼️ **Preview Screenshots & Demo**  
 
 **Inbox View:**  
-![Inbox UI](https://files.catbox.moe/qk3nfq.png)
+<img src="https://files.catbox.moe/qk3nfq.png" alt="Inbox UI" width="500">
 
 **Personal Message View:**  
-![Personal Message UI](https://files.catbox.moe/w0xbs1.png)
+<img src="https://files.catbox.moe/w0xbs1.png" alt="Personal Message UI" width="500">
 
 **Compose New Mail:**  
-![Compose Mail UI](https://files.catbox.moe/p0ymva.png)
+<img src="https://files.catbox.moe/p0ymva.png" alt="Compose Mail UI" width="500">
 
 **Broadcast Message:**  
-![Broadcast UI](https://files.catbox.moe/wqh2r1.png)
+<img src="https://files.catbox.moe/wqh2r1.png" alt="Broadcast UI" width="500">
 
 **🎥 Video Demo:**  
 [![Watch the demo](https://img.youtube.com/vi/Css16MuODGM/0.jpg)](https://youtu.be/Css16MuODGM)  
