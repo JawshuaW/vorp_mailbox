@@ -1,44 +1,68 @@
-# **vorp_mailbox**
-Telegram script for VORP Core. With this script you can send a mail to a specific player or you can send a broadcast to all players.
+# **vorp_mailbox**  
+A telegram system for VORP Core in RedM. This script allows players to send mail to specific individuals or broadcast messages to everyone on the server.
 
-## **Special Note**
-This is only a UI edit of the original script. I did not create the functionality of this script, but I’ve provided changes to enhance the appearance and usability for others. 
+---
 
-All credit for the core functionality and original script goes to the original author. This edit is simply an aesthetic improvement for better user experience.
+## 📝 **About This Version**  
+> ⚠️ **This is a UI enhancement of the original script.**  
+I did not develop the core functionality—this version only improves the user interface and overall usability. All credit for the original system belongs to the [original author](#credits). My goal is to offer a more immersive and visually polished experience.
 
-This is free for anyone to use and download
+This edit is **free to use and download**.
 
-## **Installation**
-- Add `ensure vorp_mailbox` to your `server.cfg`/ `Resources.cfg` file
-- Run the `SQL` provided for database
+---
 
-## **Features**
-- Send telegrams to specific players
-- Configurable prices for telegrams and broadcasts
-- Broadcast telegrams to all players for a fee
-- Custom VORP Mailbox UI with historical styling
-- Play custom sounds for telegram notifications
-- Easily changeable logo, text, and map blip names
-- Fully responsive HTML design for seamless user experience
+## 📦 **Installation**  
+1. Add `ensure vorp_mailbox` to your `server.cfg` or `resources.cfg`  
+2. Import the provided SQL file into your database
 
+---
 
-Postal Service Inbox:
-<img width="600" alt="image" src="https://files.catbox.moe/qk3nfq.png">
-Postal Service Personal Message:
-<img width="600" alt="image" src="https://files.catbox.moe/w0xbs1.png">
-Postal Service Write Mail:
-<img width="600" alt="image" src="https://files.catbox.moe/p0ymva.png">
-Postal Service Broadcast:
-<img width="600" alt="image" src="https://files.catbox.moe/wqh2r1.png">
+## ✨ **Features**  
+- Send telegrams to specific players  
+- Broadcast messages to all players (with configurable pricing)  
+- Clean and historically themed custom UI  
+- Play immersive sound effects for message notifications  
+- Customize map blip name, UI logo, and in-game text  
+- Responsive HTML/CSS for smoother interactions  
 
-## **Dependencies**
+---
+
+## 🖼️ **Preview Screenshots**  
+
+**Inbox View:**  
+![Inbox UI](https://files.catbox.moe/qk3nfq.png)
+
+**Personal Message View:**  
+![Personal Message UI](https://files.catbox.moe/w0xbs1.png)
+
+**Compose New Mail:**  
+![Compose Mail UI](https://files.catbox.moe/p0ymva.png)
+
+**Broadcast Message:**  
+![Broadcast UI](https://files.catbox.moe/wqh2r1.png)
+
+---
+
+## 🔧 **Dependencies**  
 - [VORP Core](https://github.com/VORPCORE/vorp_core-lua)
 
-## **License** 
-- This script is protected by its license please Read it.
+---
 
-## Credits
-[Emolitt](https://github.com/RomainJolidon) original autor
+## 📜 **License**  
+This script is distributed under the license provided in the repository. Please review it before modifying or redistributing.
 
-## Support
-[VORP Core Discord](https://discord.gg/JjNYMnDKMf)
+---
+
+## 👤 **Credits**  
+- Original script by [Emolitt](https://github.com/RomainJolidon)  
+- UI rework and enhancements by *you*
+
+### 🙏 **Special Thanks to the Official VORP Developers**  
+- [blue (Owner)](https://github.com/kamelzarandah)  
+- [outsider (Project Manager)](https://github.com/outsider31000?tab=repositories)  
+- [blackpegasus (VORP Dev Team)](https://github.com/creativewild)  
+
+---
+
+## 💬 **Support & Community**  
+For questions or support, visit the official [VORP Core Discord](https://discord.gg/JjNYMnDKMf)
