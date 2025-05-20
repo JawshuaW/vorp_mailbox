@@ -5,7 +5,7 @@ A telegram system for VORP Core in RedM. This script allows players to send mail
 
 ## 📝 **About This Version**  
 > ⚠️ **This is a UI enhancement of the original script.**  
-I did not develop the core functionality—this version only improves the user interface and overall usability. All credit for the original system belongs to the [original author](#credits). My goal is to offer a more immersive and visually polished experience.
+I did not develop the core functionality—this version only improves the user interface and overall usability. All credit for the original system belongs to the [original author credits]. My goal is to offer a more immersive and visually polished experience.
 
 This edit is **free to use and download**.
 
@@ -64,7 +64,8 @@ This script is distributed under the license provided in the repository. Please 
 ### 🙏 **Special Thanks to the Official VORP Developers**  
 - [blue (Owner)](https://github.com/kamelzarandah)  
 - [outsider (Project Manager)](https://github.com/outsider31000?tab=repositories)  
-- [blackpegasus (VORP Dev Team)](https://github.com/creativewild)  
+- [blackpegasus (VORP Dev Team)](https://github.com/creativewild)
+- [Emolitt (original author)](https://github.com/RomainJolidon)
 
 ---
 
