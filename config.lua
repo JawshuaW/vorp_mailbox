@@ -21,7 +21,7 @@ Config.locations = {
 Config.BlipName = "Vorp Core Mailbox"
 
 Config.TimeBetweenUsersRefresh = -1 -- Time spent before server fetch all users from database another time. In Seconds. If value is negative or 0, users are only fetched once at server start and never again
-Config.DelayBetweenTwoMessage = 600 -- Time spent before user is allowed to send a message another time. In Seconds. If value is negative or 0, no delay is set
+Config.DelayBetweenTwoMessage = 60 -- Time spent before user is allowed to send a message another time. In Seconds. If value is negative or 0, no delay is set
 Config.DelayBetweenTwoBroadcast = 600 -- Time spent before user is allowed to send a broadcast another time. In Seconds. If value is negative or 0, no delay is set
 Config.MessageSendPrice = 5 -- Telegram price
 Config.MessageBroadcastPrice = 500 -- How much should players pay to brodcast a message to everyone 
