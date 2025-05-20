@@ -27,7 +27,7 @@ This edit is **free to use and download**.
 
 ---
 
-## 🖼️ **Preview Screenshots**  
+## 🖼️ **Preview Screenshots & Demo**  
 
 **Inbox View:**  
 ![Inbox UI](https://files.catbox.moe/qk3nfq.png)
@@ -40,6 +40,10 @@ This edit is **free to use and download**.
 
 **Broadcast Message:**  
 ![Broadcast UI](https://files.catbox.moe/wqh2r1.png)
+
+**🎥 Video Demo:**  
+[![Watch the video](https://img.youtube.com/vi_webp/dQw4w9WgXcQ/0.jpg)](https://medal.tv/games/red-dead-2/clips/kjYlum6xsNwZK0jwn?invite=cr-MSwwNmosMzM1NDkzODA)  
+*Click to watch a preview of the system in action.*
 
 ---
 
