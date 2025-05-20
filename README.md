@@ -42,7 +42,7 @@ This edit is **free to use and download**.
 ![Broadcast UI](https://files.catbox.moe/wqh2r1.png)
 
 **🎥 Video Demo:**  
-[![Watch the video](https://img.youtube.com/vi_webp/dQw4w9WgXcQ/0.jpg)](https://medal.tv/games/red-dead-2/clips/kjYlum6xsNwZK0jwn?invite=cr-MSwwNmosMzM1NDkzODA)  
+[![Watch the demo](https://img.youtube.com/vi/Css16MuODGM/0.jpg)](https://youtu.be/Css16MuODGM)  
 *Click to watch a preview of the system in action.*
 
 ---
